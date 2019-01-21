@@ -1,14 +1,15 @@
 <template>
   <div id="app">
-    <alice-icon name="3d_rotation" color="red"/>
+    <alice-button type="primary">测试</alice-button>
   </div>
 </template>
 
 <script>
 import aliceIcon from './icon/icon.vue'
+import aliceButton from './button'
 export default {
   name: 'App',
-  components: { aliceIcon }
+  components: { aliceIcon, aliceButton }
 }
 </script>
 
