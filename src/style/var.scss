@@ -1,0 +1,98 @@
+// 基础样式 lien
+
+
+// 基础样式 lien
+// color
+$black: #000;
+$white: #fff;
+$red: #f44;
+$blue: #1989fa;
+$orange: #ff976a;
+$orange-dark: #ed6a0c;
+$orange-light: #fffbe8;
+$green: #4b0;
+$gray: #c8c9cc;
+$gray-light: #e5e5e5;
+$gray-darker: #7d7e80;
+$gray-dark: #969799;
+
+$border-color: #c8c8cd;
+$success-color: #01b26c;
+$error-color: #f44336;
+$warning-color: #ffc107;
+
+// Default colors
+$text-color: #323233;
+$border-color: #ebedf0;
+$active-color: #e8e8e8;
+$background-color: #f8f8f8;
+$background-color-light: #fafafa;
+
+// Button
+$button-default-color: $text-color;
+$button-default-background-color: $white;
+$button-default-border-color: $border-color;
+$button-primary-color: $white;
+$button-primary-background-color: $blue;
+$button-primary-border-color: $blue;
+$button-danger-color: $white;
+$button-danger-background-color: $red;
+$button-danger-border-color: $red;
+$button-warning-color: $white;
+$button-warning-background-color: $orange;
+$button-warning-border-color: $orange;
+$button-bottom-action-default-color: $white;
+$button-bottom-action-default-background-color: $orange;
+$button-bottom-action-primary-color: $white;
+$button-bottom-action-primary-background-color: $red;
+
+// Overlay
+$overlay-background-color: rgba(0, 0, 0, 0.7);
+
+// color
+$color-blue: #2db7f5;
+$color-white: #fff;
+$color-grey: #d9d9d9;
+$color-green: #01b26c;
+
+$border-color: #c8c8cd;
+$success-color: #01b26c;
+$error-color: #f44336;
+$warning-color: #ffc107;
+
+/* Cell Component */
+$cell-value-color: #888;
+
+/* Header Component */
+$header-height: 40px;
+
+/* Button Component */
+$button-default-color: #656b79;
+$button-default-background-color: #f6f8fa;
+$button-default-plain-color: #5a5a5a;
+$button-default-box-shadow: 0 0 1px #b8bbbf;
+$button-primary-color: #fff;
+$button-primary-background-color: #2db7f5;
+$button-danger-color: #fff;
+$button-danger-background-color: #ef4f4f;
+
+/* Tab Item Component */
+$tab-item-font-size: 12px;
+
+/* Tabbar Component */
+$tabbar-background-color: #fafafa;
+$tabbar-tab-item-selected-background-color: #eaeaea;
+$tabbar-tab-item-selected-color: $color-blue;
+
+/* Navbar Component */
+$navbar-background-color: #fafafa;
+$tabbar-tab-item-selected-background-color: #eaeaea;
+
+/* Checklist Component */
+$checklist-title-color: #888;
+
+/* Radio Component */
+$radio-title-color: #888;
+
+/* z-index */
+$z-index-normal: 1;
