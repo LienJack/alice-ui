@@ -1,0 +1,68 @@
+.lien-radio {
+  position: relative;
+  input[type="radio"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+  }
+  input[type="radio"] + span {
+    position: relative;
+    user-select: none;
+  }
+  input[type="radio"]:checked + span{
+    color: #1989fa;
+  }
+  input[type="radio"]:disabled + span {
+    cursor: not-allowed;
+    color: #999;
+  }
+  input[type="radio"] + span::before{
+    content: "";
+    display: inline-block;
+    width: 20px; height: 20px;
+    border-radius: 50%;
+    vertical-align: top;
+    margin-right: .2em;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    transition: border-color .2s ease-in-out, background-color .2s ease-in-out;
+  }
+  input[type="radio"]:not(:disabled) + span:hover::before{
+    border-color: #1989fa;
+  }
+  input[type="radio"] + span::after{
+    content: "";
+    display: inline-block;
+    width: 6px; height: 14px;
+    border: 2px solid #fff;
+    border-top: 0;
+    border-left: 0;
+    position: absolute;
+    left: 6px; top: 2px;
+    transform: rotate(45deg) scale(0);
+    transition: all .2s ease-in-out;
+  }
+  input[type="radio"]:checked + span::before{
+    border-color: #1989fa !important;
+    background-color: #1989fa;
+  }
+  input[type="radio"]:checked + span::after{
+    transform: rotate(45deg) scale(1);
+    transition: all .2s ease-in-out;
+  }
+  input[type="radio"]:disabled + span::before,
+  input[type="radio"]:disabled.checked + span::before{
+    background-color: #f2f2f2;
+  }
+  input[type="radio"]:disabled.checked + span::after{
+    border-color: #ccc;
+    transform: rotate(45deg) scale(1);
+  }
+  .label {
+    position: relative;
+    top:4px;
+  }
+  .label.disabled {
+    color: gray;
+  }
+  
+}

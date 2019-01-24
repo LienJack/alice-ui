@@ -1,0 +1,110 @@
+@import '../style/var.scss';
+.alice-switch {
+  display: flex;
+  align-items: center;
+  position: relative;
+  * {
+    pointer-events: none;
+  }
+  &-label {
+    margin-left: 10px;
+    display: inline-block;
+  }
+  
+  &-core {
+    display: inline-block;
+    position: relative;
+    width: 52px;
+    height: 32px;
+    border: 1px solid $color-grey;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background: $color-grey;
+    &::after, &::before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        right: 0;
+        transition:transform .3s;
+        border-radius: 15px;
+      }
+      &::after {
+        width: 30px;
+        height: 30px;
+        background-color: $color-white;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+      }
+      &::before {
+        width: 50px;
+        height: 30px;
+        background-color: #fdfdfd;
+      }
+  }
+  &-input {
+    display: none;
+    &:checked {
+      + .alice-switch-core {
+          border-color: $color-blue;
+          background-color: $color-blue;
+          &::before {
+            transform: scale(0);
+          }
+          &::after {
+            transform: translateX(-21px);
+          }
+        }
+    }
+  }
+}
+
+// .#{$prefix}-label {
+//   margin-left: 10px;
+//   display: inline-block;
+// }
+
+// .#{$prefix}-core {
+//   display: inline-block;
+//   position: relative;
+//   width: 52px;
+//   height: 32px;
+//   border: 1px solid $color-grey;
+//   border-radius: 16px;
+//   box-sizing: border-box;
+//   background: $color-grey;
+//   &::after, &::before {
+//       content: " ";
+//       position: absolute;
+//       top: 0;
+//       right: 0;
+//       transition:transform .3s;
+//       border-radius: 15px;
+//     }
+//     &::after {
+//       width: 30px;
+//       height: 30px;
+//       background-color: $color-white;
+//       box-shadow: 0 1px 3px rgba(0, 0, 0, .4);
+//     }
+//     &::before {
+//       width: 50px;
+//       height: 30px;
+//       background-color: #fdfdfd;
+//     }
+// }
+// .#{$prefix}-input {
+//   display: none;
+//   &:checked {
+//     + .#{$prefix}-core {
+//         border-color: $color-blue;
+//         background-color: $color-blue;
+
+//         &::before {
+//           transform: scale(0);
+//         }
+
+//         &::after {
+//           transform: translateX(-21px);
+//         }
+//       }
+//   }
+// }

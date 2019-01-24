@@ -1,0 +1,20 @@
+.alice-select-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  justify-content: flex-start;
+  padding: 0 20px;
+  overflow: hidden;
+  position: relative;
+}
+.action-popup .alice-select-item {
+  justify-content: center;
+}
+.alice-icon {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  right: 0px;
+  top: 50%;
+}

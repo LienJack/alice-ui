@@ -1,0 +1,57 @@
+@import '../style/var.scss';
+
+$prefix:'lien-nav-bar';
+.alice-nav-bar{
+  height: 46px;
+  position: relative;
+  user-select: none;
+  text-align: center;
+  line-height: 46px;
+  background-color: $blue;
+  color: $white;
+  .alice-icon {
+    color: $white;
+    vertical-align: middle;
+  }
+  &-title {
+    margin: 0 auto;
+    max-width: 60%;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  &-fixed {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+  }
+  
+  &-left, &-right {
+    bottom: 0;
+    font-size: 14px;
+    position: absolute;
+  }
+  
+  &-left {
+    left: 15px;
+  }
+  
+  &-right {
+    right: 15px;
+  }
+  
+  &-text {
+    color: $blue;
+    margin: 0 -15px;
+    padding: 0 15px;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  &-arrow {
+    min-width: 1em;
+    font-size: 16px;
+  }
+
+}
