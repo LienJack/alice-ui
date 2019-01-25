@@ -1,6 +1,7 @@
 import Vue from 'vue'
-
+import 'material-icons'
 import aliceIcon from './icon/icon.vue'
+import aliceCell from './cell'
 import aliceButton from './button'
 import aliceSlider from './slider'
 import aliceCheckbox from './checkbox'
@@ -22,6 +23,7 @@ Vue.prototype.$alert = Alert
 Vue.prototype.$confirm = Confirm 
 
 Vue.component('aliceIcon', aliceIcon)
+Vue.component('aliceCell', aliceCell)
 Vue.component('aliceButton', aliceButton)
 Vue.component('aliceSlider', aliceSlider)
 Vue.component('aliceCheckbox', aliceCheckbox)

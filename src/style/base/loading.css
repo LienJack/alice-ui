@@ -1,0 +1,4 @@
+.loading::before {
+  content: '';
+  display: flex;
+}

@@ -1,5 +1,5 @@
 <template>
-  <div class="alice-nav-bar alice-nav-bar-fixed" :style="style">
+  <div class="alice-nav-bar" :style="style" :class="classes">
     <div class="alice-nav-bar-left" @click="$emit('click-left')">
       <slot name="left">
         <alice-icon
@@ -56,6 +56,11 @@ export default {
       return {
         zIndex: this.zIndex
       }
+    },
+    classes() {
+      return [
+        { 'alice-nav-bar-fixed': this.fixed }
+      ]
     }
   }
 }

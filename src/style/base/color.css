@@ -1,0 +1,27 @@
+.c { color: #0ea2f8; }
+.cf { color: #fff; }
+.ce { color: #eee; }
+.cd { color: #ddd; }
+.ca { color: #aaa; }
+.cb { color: #bbb; }
+.cc { color: #ccc; }
+
+.c0 { color: #000; }
+.c1 { color: #111; }
+.c2 { color: #222; }
+.c3 { color: #333; }
+.c4 { color: #444; }
+.c5 { color: #555; }
+.c6 { color: #666; }
+.c7 { color: #777; }
+.c8 { color: #888; }
+.c9 { color: #999; }
+
+.bc { background-color: #0ea2f8; }
+.bcf { background-color: #fff !important; }
+
+.bce { background-color: #eee; }
+.bcd { background-color: #ddd; }
+.bca { background-color: #aaa; }
+.bcb { background-color: #bbb; }
+.bcc { background-color: #ccc; }

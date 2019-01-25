@@ -1,0 +1,18 @@
+* {
+  /* font-size: 14px; */
+}
+.f18 { font-size: 18px; }
+.f17 { font-size: 17px; }
+.f16 { font-size: 16px; }
+.f15 { font-size: 15px; }
+.f14 { font-size: 14px; }
+.f13 { font-size: 13px; }
+.f12 { font-size: 12px; }
+.f11 { font-size: 11px; }
+.f10 { font-size: 10px; }
+.f9 { font-size: 9px; }
+.f8 { font-size: 8px; }
+
+.fc { text-align: center }
+.fl { text-align: left }
+.fr { text-align: right }
