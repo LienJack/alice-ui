@@ -13,6 +13,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "material-icons": "^0.3.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.2"
   },

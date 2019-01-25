@@ -30,11 +30,11 @@ $background-color-light: #fafafa;
 
 // Button
 $button-default-color: $text-color;
-$button-default-background-color: $white;
+$button-default-background-color: $blue;
 $button-default-border-color: $border-color;
 $button-primary-color: $white;
-$button-primary-background-color: $blue;
-$button-primary-border-color: $blue;
+$button-primary-background-color: $white;
+$button-primary-border-color: $white;
 $button-danger-color: $white;
 $button-danger-background-color: $red;
 $button-danger-border-color: $red;
@@ -60,13 +60,13 @@ $success-color: #01b26c;
 $error-color: #f44336;
 $warning-color: #ffc107;
 
-/* Cell Component */
+// cell
 $cell-value-color: #888;
 
-/* Header Component */
+
 $header-height: 40px;
 
-/* Button Component */
+// button
 $button-default-color: #656b79;
 $button-default-background-color: #f6f8fa;
 $button-default-plain-color: #5a5a5a;
@@ -76,23 +76,18 @@ $button-primary-background-color: #2db7f5;
 $button-danger-color: #fff;
 $button-danger-background-color: #ef4f4f;
 
-/* Tab Item Component */
+// tab
 $tab-item-font-size: 12px;
 
-/* Tabbar Component */
+// Tabbar 
 $tabbar-background-color: #fafafa;
 $tabbar-tab-item-selected-background-color: #eaeaea;
 $tabbar-tab-item-selected-color: $color-blue;
 
-/* Navbar Component */
+// Navbar 
 $navbar-background-color: #fafafa;
 $tabbar-tab-item-selected-background-color: #eaeaea;
 
-/* Checklist Component */
-$checklist-title-color: #888;
-
-/* Radio Component */
-$radio-title-color: #888;
 
 /* z-index */
 $z-index-normal: 1;

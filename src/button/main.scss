@@ -18,13 +18,13 @@ $prefix: "alice-btn";
   align-items: center;
 
   &-default {
-    color: $button-default-color;
-    background-color: $button-default-background-color;
+    color: $white;
+    background-color:$blue;
     border: 1px solid $button-default-border-color;
   }
   &-primary {
-    color: $button-primary-color;
-    background-color: $button-primary-background-color;
+    color: $text-color;
+    background-color: $white;
     border: 1px solid $button-primary-border-color;
   }
   &-danger {

@@ -24,7 +24,7 @@
           v-text="rightText"
           class="alice-nav-bar-text"
         />
-         <icon
+         <alice-icon
           name="keyboard_arrow_right"
           class="alice-icon"
           v-if="rightArrow"
@@ -40,7 +40,10 @@ export default {
 
   props: {
     title: String,
-    fixed: Boolean,
+    fixed: {
+      type: Boolean,
+      default: false,
+    },
     leftText: String,
     rightText: String,
     leftArrow: Boolean,

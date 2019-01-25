@@ -12,7 +12,7 @@
 
 <script>
 export default {
-  name: 'icon',
+  name: 'alice-icon',
   props: {
     name: String,
     size: {
