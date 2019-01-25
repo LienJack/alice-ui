@@ -2,7 +2,7 @@ export function on(target, event, handler, passive = false) {
   target.addEventListener(
     event,
     handler,
-    supportsPassive ? { capture: false, passive } : false
+    passive
   );
 }
 

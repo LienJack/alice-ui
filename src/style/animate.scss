@@ -1,0 +1,127 @@
+@keyframes alice-slide-up-enter {
+  from {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes alice-slide-up-leave {
+  to {
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+@keyframes alice-slide-down-enter {
+  from {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes alice-slide-down-leave {
+  to {
+    transform: translate3d(0, -100%, 0);
+  }
+}
+
+@keyframes alice-slide-left-enter {
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes alice-slide-left-leave {
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes alice-slide-right-enter {
+  from {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes alice-slide-right-leave {
+  to {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes alice-fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes alice-fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes alice-rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.alice-fade {
+  &-enter-active {
+    animation: .3s alice-fade-in;
+  }
+
+  &-leave-active {
+    animation: .3s alice-fade-out;
+  }
+}
+
+.alice-slide-up {
+  &-enter-active {
+    animation: alice-slide-up-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: alice-slide-up-leave .3s both ease;
+  }
+}
+
+.alice-slide-down {
+  &-enter-active {
+    animation: alice-slide-down-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: alice-slide-down-leave .3s both ease;
+  }
+}
+
+.alice-slide-left {
+  &-enter-active {
+    animation: alice-slide-left-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: alice-slide-left-leave .3s both ease;
+  }
+}
+
+.alice-slide-right {
+  &-enter-active {
+    animation: alice-slide-right-enter .3s both ease;
+  }
+
+  &-leave-active {
+    animation: alice-slide-right-leave .3s both ease;
+  }
+}

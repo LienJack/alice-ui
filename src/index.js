@@ -12,7 +12,14 @@ import aliceNavBar from './navBar'
 import aliceSpinner from './spinner'
 import aliceCollapse from './collapse'
 import aliceCollapseItem from './collapseItem'
+import alicePopup from './popup'
 import { aliceSelectItem } from './select'
+import { tabs, tabsBody, tabsHead, tabsItem, tabsPane } from './tabs'
+
+import { Alert, Confirm } from './dialog'
+Vue.prototype.$alert = Alert
+
+Vue.prototype.$confirm = Confirm 
 
 Vue.component('aliceIcon', aliceIcon)
 Vue.component('aliceButton', aliceButton)
@@ -27,4 +34,13 @@ Vue.component('aliceSpinner', aliceSpinner)
 Vue.component('aliceSelectItem', aliceSelectItem)
 Vue.component('aliceCollapse', aliceCollapse)
 Vue.component('aliceCollapseItem', aliceCollapseItem)
+Vue.component('aliceTabs', tabs)
+Vue.component('aliceTabsBody', tabsBody)
+Vue.component('aliceTabsHead', tabsHead)
+Vue.component('aliceTabsItem', tabsItem)
+Vue.component('aliceTabsPane', tabsPane)
+Vue.component('alicePopup', alicePopup)
+
+
+import './style/animate.scss'
 

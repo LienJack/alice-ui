@@ -1,0 +1,77 @@
+.alice-confirm {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  background-color: #fff;
+  width: 85%;
+  border-radius: 3px;
+  font-size: 16px;
+  overflow: hidden;
+  backface-visibility: hidden; // 背面是不可见的
+  z-index: 1000;
+  &-mask {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(55,55,55,.6);
+    height: 100vh;
+    z-index: 990;
+  }
+  &-header {
+    padding: 15px 0 0;
+  }
+  
+  &-content {
+    padding: 10px 20px 15px;
+    border-bottom: 1px solid #ddd;
+    min-height: 36px;
+    position: relative;
+  }
+  
+  &-title {
+    text-align: center;
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  &-message {
+    color:#999;
+    margin: 0;
+    text-align: center;
+    line-height: 36px;
+  }
+  
+  &-btns {
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    button {
+      line-height: 35px;
+      display: block;
+      background-color: #fff;
+      flex: 1;
+      margin: 0;
+      border: 0;
+    }
+    .confirmButton {
+      color: #26a2ff;
+      width: 50%;
+      &:active {
+        color: #26a2ff;
+      }
+    }
+    .cancelButton {
+      width: 50%;
+      border-right: 1px solid #ddd;
+      &:active {
+        color: #000;
+      }
+    }
+  }
+}

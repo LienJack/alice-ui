@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <alice-select-item name="11" active/>
+    <alice-button @click.native="open">test</alice-button>
   </div>
 </template>
 
@@ -10,8 +10,15 @@ export default {
   name: 'App',
   data() {
     return {
+      popup: false,
       slider: 50,
-       multiple: 'option1'
+       multiple: 'option1',
+       selected: '1'
+    }
+  },
+  methods: {
+    open() {
+      this.$confirm({content: '1'},()=> window.alert('1'))
     }
   }
 }
