@@ -17,12 +17,13 @@ AlertConstructor.prototype.closeAlert = function () {
     typeof this.callback === 'function' && this.callback();
 };
 
-const Alert = (options = {}) => {
+const Alert = (options = {}, callback) => {
     if(typeof options === 'string') {
       instance.content = options;
     } else {
       Object.assign(instance, options)
     }
+    instance.callback = callback
     instance.isShow = true
     window.addEventListener("hashchange", hashChange);
     document.body.appendChild(instance.$el);

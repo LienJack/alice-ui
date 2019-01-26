@@ -32,7 +32,7 @@ const Confirm = (options = {}, confirmCallback, cancelCallback) => {
     Object.assign(instance, options)
     instance.isShow = true
     confirmCallback && (instance.confirmCallback = confirmCallback)
-    cancelCallback && (instance.cancelCallback = confirmCallback)
+    cancelCallback && (instance.cancelCallback = cancelCallback)
     window.addEventListener("hashchange", hashChange);
     document.body.appendChild(instance.$el);
 };

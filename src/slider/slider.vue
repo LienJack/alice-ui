@@ -25,7 +25,10 @@ export default {
   mixins: [Touch],
 
   props: {
-    min: Number,
+    min: {
+      type: Number,
+      default: 1
+    },
     value: Number,
     disabled: Boolean,
     max: {

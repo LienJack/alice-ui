@@ -2,7 +2,7 @@
   <div class="page">
     <alice-nav-bar title="button 按钮" leftArrow @click-left="$router.go(-1)"/>
     <section>
-      <div class="p15 c7">按钮种类</div>
+      <div class="p15 c7 f16">按钮种类</div>
       <div class="row-between mh5">
         <alice-button type="default">按钮default</alice-button>
         <alice-button type="primary">按钮primary</alice-button>

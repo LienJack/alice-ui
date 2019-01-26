@@ -26,7 +26,7 @@ export default {
   },
   computed: {
     currentTransition() {
-      return this.transiton || (this.position ? `popup-slide-${this.position}` : `alice-fade`)
+      return (this.transiton ? `popup-slide-${this.transiton}` : `alice-fade`)
     },
     positionClass() {
       return this.position ? `alice-popup-${this.position}` : ''

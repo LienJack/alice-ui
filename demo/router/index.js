@@ -4,6 +4,7 @@ Vue.use(Router)
 
 import basePage from './base'
 import formPage from './form'
+import showPage from './show'
 export default new Router({
   routes: [
     {
@@ -15,6 +16,7 @@ export default new Router({
       component: () => import('demo/page/index')
     },
     ...basePage,
-    ...formPage
+    ...formPage,
+    ...showPage,
   ],
 })

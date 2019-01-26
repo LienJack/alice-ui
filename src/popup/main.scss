@@ -59,7 +59,7 @@
 
 .popup-slide-right-enter,
 .popup-slide-right-leave-active {
-  transform: translate3d(100%, -50%, 0);
+  transform: translate3d(200%, -50%, 0);
 }
 
 .popup-slide-bottom-enter,
@@ -69,5 +69,5 @@
 
 .popup-slide-left-enter,
 .popup-slide-left-leave-active {
-  transform: translate3d(-100%, -50%, 0);
+  transform: translate3d(-200%, -50%, 0);
 }

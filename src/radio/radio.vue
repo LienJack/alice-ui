@@ -1,5 +1,5 @@
 <template>
-  <label class="lien-radio">
+  <label class="alice-radio">
     <span>
       <input 
         type="radio"

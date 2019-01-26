@@ -2,6 +2,7 @@ import Vue from 'vue'
 import 'material-icons'
 import aliceIcon from './icon/icon.vue'
 import aliceCell from './cell'
+import aliceField from './field'
 import aliceButton from './button'
 import aliceSlider from './slider'
 import aliceCheckbox from './checkbox'
@@ -24,6 +25,7 @@ Vue.prototype.$confirm = Confirm
 
 Vue.component('aliceIcon', aliceIcon)
 Vue.component('aliceCell', aliceCell)
+Vue.component('aliceField', aliceField)
 Vue.component('aliceButton', aliceButton)
 Vue.component('aliceSlider', aliceSlider)
 Vue.component('aliceCheckbox', aliceCheckbox)
@@ -42,6 +44,13 @@ Vue.component('aliceTabsHead', tabsHead)
 Vue.component('aliceTabsItem', tabsItem)
 Vue.component('aliceTabsPane', tabsPane)
 Vue.component('alicePopup', alicePopup)
+Vue.component('aliceTabs', tabs)
+Vue.component('aliceTabsBody', tabsBody)
+Vue.component('aliceTabsHead', tabsHead)
+Vue.component('aliceTabsHead', tabsHead)
+Vue.component('aliceTabsItem', tabsItem)
+Vue.component('aliceTabsItem', tabsItem)
+Vue.component('aliceTabsPane', tabsPane)
 
 
 import './style/animate.scss'
