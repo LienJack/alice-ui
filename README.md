@@ -1,30 +1,18 @@
 # alice-ui
 
-> A Vue.js project
+> 一个自己学习造轮子的UI库
 
-## Build Setup
+开坑一时爽，填坑火葬场
+## 在线观看地址
+[在线地址](https://lienjack.github.io/alice-ui-demo)
 
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
+## 使用办法
+下载依赖
+```
+npm i
+```
+启动服务
+```
 npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

@@ -6,6 +6,7 @@
     <alice-nav-bar title="使用案例" :fixed="false"/>
     <section>
       <div class="mt15">
+        <div class="p15 c7 f16">请在模拟手机模式打开</div>
         <alice-collapse single :selected="list">
           <alice-collapse-item title="基础组件" name="base">
             <alice-cell title="button 按钮" is-link to="/base/button" />
