@@ -1,6 +1,5 @@
 @import '../style/var.scss';
 
-$prefix:'lien-nav-bar';
 .alice-nav-bar{
   height: 46px;
   position: relative;
@@ -9,7 +8,7 @@ $prefix:'lien-nav-bar';
   line-height: 46px;
   background-color: $blue;
   color: $white;
-  .alice-icon {
+  &-icon {
     color: $white;
     vertical-align: middle;
   }

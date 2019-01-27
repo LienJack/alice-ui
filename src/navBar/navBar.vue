@@ -4,7 +4,7 @@
       <slot name="left">
         <alice-icon
           name="keyboard_arrow_left"
-          class="alice-icon"
+          class="alice-nav-bar-icon"
           v-if="leftArrow"
         />
         <span
@@ -26,7 +26,7 @@
         />
          <alice-icon
           name="keyboard_arrow_right"
-          class="alice-icon"
+          class="alice-nav-bar-icon"
           v-if="rightArrow"
         />
       </slot>

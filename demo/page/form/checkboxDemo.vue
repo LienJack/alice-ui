@@ -37,7 +37,7 @@
           <alice-checkbox label="value3">value3</alice-checkbox>
           <alice-checkbox label="value4">value4</alice-checkbox>
         </alice-checkbox-group>
-        <div class="pv5">选中了{{options2}}</div>
+        <div class="pv5">选中了{{options3}}</div>
       </div>
     </section>
   </div>

@@ -19,6 +19,9 @@ import { aliceSelectItem } from './select'
 import { tabs, tabsBody, tabsHead, tabsItem, tabsPane } from './tabs'
 
 import { Alert, Confirm } from './dialog'
+
+import 'material-design-icons/iconfont/material-icons.css'
+// import 'material-icons'
 Vue.prototype.$alert = Alert
 
 Vue.prototype.$confirm = Confirm 
