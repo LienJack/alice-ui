@@ -26,7 +26,7 @@
 export default {
   methods: {
     showAlert() {
-      this.$alert('这是提示框',()=>{window.alert('你按了确定')})
+      this.$alert('这是提示框',()=>{window.alert('触发事件')})
     },
     showConfirm() {
       this.$confirm('这是提示框',()=>{window.alert('你按了确定')},()=>{window.alert('你按了取消')})

@@ -31,7 +31,7 @@
 
       <div class="p15 c7">设置最大选择个数</div>
       <div class="p15">
-        <alice-checkbox-group v-model="options2" :max="2">
+        <alice-checkbox-group v-model="options3" :max="2">
           <alice-checkbox label="value1">value1</alice-checkbox>
           <alice-checkbox label="value2">value2</alice-checkbox>
           <alice-checkbox label="value3">value3</alice-checkbox>
@@ -48,7 +48,8 @@ export default {
     return {
       value1: false,
       options1:[],
-      options2:[]
+      options2:[],
+      options3:[],
     }
   }
 }
