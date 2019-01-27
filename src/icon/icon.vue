@@ -3,7 +3,8 @@
     v-if="name"
     :class="[classes,cname]"
     :style="style"
-    v-text="name">
+    v-text="name"
+    @click="$emit('click')">
   </i>
   <span v-else>
     <slot/>
@@ -16,7 +17,7 @@ export default {
   props: {
     name: String,
     size: {
-      type: [Number, String],
+      type: String,
       default: '24px'
     },
     color: String,

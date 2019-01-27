@@ -18,7 +18,7 @@ const prefix = "alice-btn"
 export default {
   name: 'alice-button',
   props: {
-  text: String,
+    text: String,
     disabled: Boolean,
     block: Boolean,
     round: Boolean,

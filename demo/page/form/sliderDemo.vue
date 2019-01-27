@@ -3,7 +3,7 @@
     <alice-nav-bar title="slider 滑条" leftArrow @click-left="$router.go(-1)"/>
     <section>
       <div class="p20">
-        <alice-slider v-model="value" min/>
+        <alice-slider v-model="value" />
       </div>
       <div class="p15">数值{{value}}</div>
     </section>
