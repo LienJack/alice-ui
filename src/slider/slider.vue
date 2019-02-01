@@ -29,7 +29,10 @@ export default {
       type: Number,
       default: 1
     },
-    value: Number,
+    value: {
+      type: Number,
+      default: 0
+    },
     disabled: Boolean,
     max: {
       type: Number,
